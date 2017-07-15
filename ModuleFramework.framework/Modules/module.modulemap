@@ -1,0 +1,12 @@
+framework module ModuleFramework {
+    umbrella header "ModuleFramework.h"
+    header "PrywatnaFramework.h"
+    
+    export *
+    module * { export * }
+    
+}
+
+module ModuleFramework.Swift {
+    header "ModuleFramework-Swift.h"
+}
